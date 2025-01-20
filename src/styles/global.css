@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #40e0d0; /* Azul turquesa */
+    --secondary-color: #800080; /* Morado */
+    --white-color: #ffffff; /* Blanco */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--white-color);
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}

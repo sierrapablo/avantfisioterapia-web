@@ -1,0 +1,29 @@
+.logo-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--white-color);
+    transition: opacity 1s ease-in-out;
+    cursor: pointer;
+}
+
+.logo-screen.fade-out {
+    opacity: 0;
+}
+
+.logo-container {
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
